@@ -20,8 +20,8 @@ def create_daily_user_df(df):
 
 # Kode untuk membuat Filter (Kalender)
 
-all_df = pd.read_csv("day_df.csv")
-new_hour_df = pd.read_csv("new_hour_df.csv")
+all_df = pd.read_csv("Dashboard/day_df.csv")
+new_hour_df = pd.read_csv("Dashboard/new_hour_df.csv")
 
 datetime_columns = ["dteday"]
 all_df.sort_values(by="dteday", inplace=True)
